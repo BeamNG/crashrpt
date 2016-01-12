@@ -51,5 +51,5 @@ set_target_properties(CrashRpt PROPERTIES COMPILE_FLAGS "/Os")
 #endif(${MSVC_VERSION} GREATER 1310)
 
 set_target_properties(CrashSender PROPERTIES 
-				DEBUG_POSTFIX ${CRASHRPT_VER}d
+				DEBUG_POSTFIX ${CRASHRPT_VER}
 				RELEASE_POSTFIX ${CRASHRPT_VER} )
